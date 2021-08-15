@@ -1,8 +1,8 @@
 var LIVE2DCUBISMCORE = Live2DCubismCore
 //如果资源在CDN，一定要写http://或者https://否则会以本域名请求且为相对路径
 //模型的model3.json文件路径
-var baseModelPath = 'https://cdn.jsdelivr.net/gh/emptysuns/live2d@0.3/index.js'
-var modelNames = ["lafei_4"];
+var baseModelPath = 'https://cdn.jsdelivr.net/gh/emptysuns/live2d@0.3'
+var modelNames = ["taihou"];
 var modelPath;
 //Application全局变量
 var app = null;
@@ -290,7 +290,7 @@ function loadModel() {
     var modelName = modelNames[Math.floor(Math.random() * modelNames.length)];
     //拼接路径
     //如果model3的文件形如baseModelPath/xxx/xxx.model3.json则下面不用修改，否则按照文件路径进行修改
-    modelPath = baseModelPath + "/" + modelName + ".model3.json";
+    modelPath = baseModelPath + "/" + "taihou_home.motion3.json";
     var ajax = null;
     if (window.XMLHttpRequest) { ajax = new XMLHttpRequest(); } else if (window.ActiveObject) {
         ajax = new ActiveXObject("Microsoft.XMLHTTP");
