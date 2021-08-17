@@ -1,5 +1,5 @@
 # live2d
 
-免费引用jsdliver
+免费引用,格式是jsdliver
 
-demo https://iacg.cf
+demo https://www.iacg.cf
