@@ -18,8 +18,8 @@ var homeIndex;
 var model_x = -15;
 var model_y = 40;
 //渲染模型的宽高
-var modelWidth = window.innerHeight * 0.2;
-var modelHight = window.innerHeight * 0.2;
+var modelWidth = window.innerHeight;
+var modelHight = window.innerHeight;
 //渲染模型的比例
 var scale = 30;
 //测试用，加载时间起点，不保证准确性
