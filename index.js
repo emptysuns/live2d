@@ -22,7 +22,7 @@ function loadScript(src, callback) {
         if (document.body.clientWidth > 600) {
             document.onreadystatechange = function () {
                 if (document.readyState == "complete") {
-                    loadScript('https://cdn.jsdelivr.net/combine/gh/emptysuns/live2d@2.3/pixi.min.js,gh/emptysuns/live2d@2.3/live2dcubismcore.min.js,gh/emptysuns/live2d@2.3/live2dcubismframework.min.js,gh/emptysuns/live2d@2.3/live2dcubismpixi.min.js,gh/emptysuns/live2d@2.3/load.js',function(){
+                    loadScript('https://cdn.jsdelivr.net/combine/gh/emptysuns/live2d@2.4/pixi.min.js,gh/emptysuns/live2d@2.4/live2dcubismcore.min.js,gh/emptysuns/live2d@2.4/live2dcubismframework.min.js,gh/emptysuns/live2d@2.4/live2dcubismpixi.min.js,gh/emptysuns/live2d@2.4/load.js',function(){
                         loadModel();
 })
                 }
