@@ -1,7 +1,7 @@
 var LIVE2DCUBISMCORE = Live2DCubismCore
 //如果资源在CDN，一定要写http://或者https://否则会以本域名请求且为相对路径
 //模型的model3.json文件路径
-var baseModelPath = 'https://cdn.jsdelivr.net/gh/emptysuns/live2d@2.3'
+var baseModelPath = 'https://cdn.jsdelivr.net/gh/emptysuns/live2d@2.4'
 var modelNames = ["taihou"];
 var modelPath;
 //Application全局变量
@@ -18,8 +18,8 @@ var homeIndex;
 var model_x = -15;
 var model_y = 40;
 //渲染模型的宽高
-var modelWidth = 800;
-var modelHight = 700;
+var modelWidth = window.innerHeight * 0.2;
+var modelHight = window.innerHeight * 0.2;
 //渲染模型的比例
 var scale = 30;
 //测试用，加载时间起点，不保证准确性
