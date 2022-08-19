@@ -2,4 +2,4 @@
 
 免费引用,格式是jsdliver
 
-demo https://www.iacg.cf
+demo blog.imoeq.com
